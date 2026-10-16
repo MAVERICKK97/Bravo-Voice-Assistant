@@ -24,6 +24,7 @@
 12. [Project File Structure](#-project-file-structure)
 13. [Security & Privacy](#-security--privacy)
 14. [Academic & Team Collaboration](#-academic--team-collaboration)
+15. [Author & Lead Developer](#-author--lead-developer)
 
 ---
 
@@ -397,6 +398,15 @@ This project is structured for academic group collaboration and modular developm
    git push origin feature/your-feature-name
    ```
 4. **Open a Pull Request**: Submit a Pull Request on GitHub for peer review before merging into `main`.
+
+---
+
+## 👨‍💻 Author & Lead Developer
+
+- **Shrijay Talap** ([@MAVERICKK97](https://github.com/MAVERICKK97))
+  - **GitHub:** [https://github.com/MAVERICKK97](https://github.com/MAVERICKK97)
+  - **Project Repository:** [Bravo-Voice-Assistant](https://github.com/MAVERICKK97/Bravo-Voice-Assistant)
+  - **Role:** Lead Architect & Developer (System Architecture, Gemini Live Integration, 3D Holographic HUD & OS Automation)
 
 ---
 
