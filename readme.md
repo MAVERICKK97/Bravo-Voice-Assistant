@@ -1,12 +1,3 @@
-# ⚙️ MARK LV (55)
-### The Ultimate Cross-Platform Personal AI Assistant — By FatihMakes
-
-> 📺 **[Watch the full setup video on YouTube](https://www.youtube.com/@FatihMakes)**
-
-A real-time voice AI that can hear, see, speak, and control your computer — on any OS. Supports Windows, macOS, and Linux. Built on the Gemini Live API for native audio streaming, delivering zero subscriptions and total digital autonomy.
-
----
-
 ## ✨ Overview
 
 Mark LIV gave the assistant a face. **Mark LV gives it a screen — and the stamina to keep working when a model goes down.**
@@ -379,20 +370,3 @@ All three are listed in `.gitignore`, so a fork or a pull request cannot leak th
 Your voice is streamed to Google's Gemini Live API while a session is open; that is the one thing that leaves your computer, and it stops when you mute or close the app.
 
 ---
-
-## ⚠️ License
-
-Personal and non-commercial use only.
-Licensed under **[Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)**.
-
----
-
-## 👤 Connect with the Creator
-
-Engineered by a developer building a real-world BRAVO-style assistant.
-⭐ **Star the repository to support the journey to Mark 100.**
-
-| Platform | Link |
-| --- | --- |
-| YouTube | [@FatihMakes](https://www.youtube.com/@FatihMakes) |
-| Instagram | [@fatihmakes](https://www.instagram.com/fatihmakes) |
