@@ -12,7 +12,7 @@
 ## 📑 Table of Contents
 1. [Overview & Vision](#-overview--vision)
 2. [System Architecture](#-system-architecture)
-3. [Key Highlights & Capabilities](#-key-highlights--capabilities)
+3. [Comprehensive Capabilities List](#-comprehensive-capabilities-list)
 4. [Stark Protocols (Macro Automation)](#-stark-protocols-macro-automation)
 5. [Operating System & Hardware Control](#-operating-system--hardware-control)
 6. [Resilience & Fallback Ladder](#-resilience--fallback-ladder)
@@ -78,24 +78,81 @@
 
 ---
 
-## 🚀 Key Highlights & Capabilities
+## 🚀 Comprehensive Capabilities List
 
-### 🧑‍🎤 1. 3D Holographic Avatar & Realistic Lip-Sync
-- **Software Vector Projection**: Uses 3D geometry from a 468-vertex facial mesh rendered cleanly via Qt's 2D vector graphics pipeline (`QPainter`).
-- **Real-Time Lip-Sync**: Analyzes both incoming audio formants and live text transcripts to compute ~50 viseme mouth shapes per second.
-- **Facial Dynamics**: Features natural blinking, subtle head tracking nods on stressed syllables, and saccadic eye movements. The avatar looks down when reading and meets your eyes when actively listening.
+Bravo Voice Assistant features an extensive suite of over 50 built-in capabilities spanning real-time audio, software 3D rendering, deep operating system automation, and multimodal intelligence:
 
-### 🎙️ 2. Offline Wake Word & Push-to-Talk
-- **Local Wake Word ("Hey Bravo")**: Listens locally on an isolated background thread. Auto-sleeps after periods of inactivity to conserve CPU and bandwidth. Zero audio is sent over the internet while asleep.
-- **Global Push-to-Talk**: Hold **Ctrl+Space** anywhere on your desktop to speak instantly without saying the wake word.
+### 🎙️ 1. Audio, 3D Holographic Avatar & HUD Presence
+| Capability | Description |
+|---|---|
+| 🧑‍🎤 Holographic 3D Avatar | Real-time animated 3D human head rendered entirely in software via `QPainter` (no GPU or 3D engine required) |
+| 👄 Real-Time Lip-Sync | Viseme synthesis (~50 shapes/second) derived from audio formants and live speech transcripts |
+| 🌍 Language-Free Articulation | Universal Unicode mouth mapping covering Latin, Cyrillic, and Greek phonemes |
+| 🙂 Natural Facial Acting | Phrase-tracking brows, gaze saccades, natural blinking, and subtle nod gestures on stressed syllables |
+| 😐 Face as Status Indicator | Looks away while thinking, meets user gaze when listening, lids lower in sleep mode, glances down at loaded files |
+| 🎚️ Global Push-to-Talk | Hold **Ctrl+Space** anywhere across the operating system to immediately open the microphone |
+| 🔇 Self-Echo Cancellation Guard | Distinguishes user speech from the assistant's own audio output, preventing feedback loops |
+| 🎙️ Offline Wake Word | Fully local **"Hey Bravo"** wake-word detection engine; runs offline on an isolated thread |
+| 💤 Intelligent Sleep Mode | Automatically enters power-saving sleep after 2 minutes of silence; never streams audio while asleep |
+| ⚡ Instant Acknowledgment | Speaks an immediate, context-aware acknowledgement while longer background tasks execute |
+| 🚀 Gemini Live WebSocket | Sub-second full-duplex conversational audio streaming directly with Gemini Live |
+| 🎙️ Dynamic Voice Switcher | Switch between 5 native Gemini voices on the fly from the HUD without restarting |
+| 〰️ Reactive Audio Waveform | Dynamic waveform visualization pulsing to real-time audio amplitudes for both user and assistant |
+| 🎧 Audio Endpoint Resolver | Scans, deduplicates, and validates system microphones and speakers across MME, DirectSound, and WASAPI |
+| 🔗 Session Continuity | Retains conversation context and history across temporary network drops and device re-plugs |
 
-### ↩️ 3. Universal Action Reversal (Undo Engine)
-- Say *"undo"* in plain language, and Bravo reverses its last modification:
-  - **Files**: Moves files back to their original paths, restores edited contents, unlinks newly created empty folders.
-  - **Settings**: Restores previous volume levels, brightness settings, or desktop themes.
+### 🖥️ 2. Operating System, Desktop & Hardware Automation
+| Capability | Description |
+|---|---|
+| ⚡ Stark Protocols | One-phrase multi-task macro engine ("Stealth", "Focus", "Overclock", "Clean Slate", "Night", "Audit") |
+| 📂 Full Multi-Drive File Control | Deep read, write, create, copy, move, and delete permissions across all drives (`C:` and `D:`) |
+| 🧹 Desktop Auto-Organizer | Categorizes desktop clutter into clean directories (Documents, Images, Code, Archives) |
+| ↩️ Universal Undo Engine | Safely reverses file operations, folder creations, and system settings modifications on voice command |
+| ⚠️ Human Confirmation Gate | Hardware-level UI confirmation dialog for critical actions (shutdown, restart, WiFi disable) |
+| 🖥️ Hardware Mixers | Voice control over master volume, mute states, display brightness, and dark mode toggles |
+| 🔌 Power State Management | Workstation locking, screen sleeping, system reboots, and scheduled shutdowns |
+| 🚀 Native Application Launcher | Launches, focuses, minimizes, and terminates desktop applications via flexible name matching |
+| 🌐 Voice Browser Automation | Opens URLs, navigates tabs, conducts search queries, and controls web sessions |
+| 📊 Real-Time Hardware Telemetry | Continuous background monitoring of CPU, RAM, GPU, and thermal statistics with proactive alerts |
+| ⌨️ Hybrid Voice & Keyboard Input | Seamlessly switch between voice dialogue and keyboard typing in the HUD command input |
+| 📋 Clipboard Intelligence | Instant clipboard clearing, copying, translation, and text transformation |
+| ⏰ Scheduled Notifications | System-native reminders using Windows Task Scheduler and OS notification hubs |
+| 📨 Direct Messaging Integration | Voice-driven message composition and dispatch via WhatsApp and web endpoints |
+| ⚡ Auto-Start on System Boot | Registers with OS startup management (Windows Registry / macOS LaunchAgents) |
 
-### ⚠️ 4. Human-in-the-Loop Confirmation Gate
-- Destructive commands (system shutdown, restart, disabling network interfaces) trigger a direct UI confirmation dialog on the HUD. The assistant cannot bypass this safety gate on its own.
+### 👁️ 3. Multimodal Vision, Media & Web Intelligence
+| Capability | Description |
+|---|---|
+| 👁️ Live Screen Analysis | Real-time multi-monitor screen capture analyzed directly by Gemini for debugging, reading, and assistance |
+| 📹 Live Webcam Vision | Webcam video stream ingestion for real-world object recognition, spatial awareness, and visual Q&A |
+| 📄 Document Intelligence | Deep reading, semantic analysis, and summarization of local PDFs, text files, and code repositories |
+| 📺 Embedded HUD Video Player | Plays YouTube streams, direct media URLs, or local MP4 files directly within the central HUD avatar space |
+| 🔇 Smart Media Ducking | Automatically ducks playback volume and mutes the microphone while video audio plays |
+| 🔍 Multi-Mode Web Search | Grounded live web search supporting modes: `news`, `research`, `price`, `compare`, and `search` |
+| 🌤️ Live Weather Reports | Real-time meteorological data and weather forecasts for your city |
+| 🗺️ Dynamic Content Panel | Scrollable display layer beneath the HUD rendering structured web results, tables, and search data |
+
+### 🧠 4. Memory Engine, Resilience & Customization
+| Capability | Description |
+|---|---|
+| 🪜 9-Model Fallback Ladder | Automated failover hierarchy with cooldowns ensuring 100% uptime through rate limits or API outages |
+| 🧠 Hybrid Persistent Memory | Zero-token bloat architecture combining lightweight prompt context with local vectorless search |
+| 👁️ GUI Memory Panel | Dedicated HUD drawer allowing inspection, editing, and deletion of stored facts |
+| 🌅 Morning Briefing Engine | Greets on boot, recaps previous conversations, announces time, and summarizes live morning news |
+| 🔔 Proactive Check-ins | Context-aware reminders and check-ins based on time of day, active projects, and past topics |
+| 📱 Mobile LAN Remote Dashboard | QR-code paired local HTTPS web dashboard for mobile control, text input, and telemetry |
+| 🎨 Dynamic HUD Theming | Real-time hue wheel and hex color picker that dynamically recolors the entire HUD and 3D avatar |
+| 🧩 Modular Plugin System | Drop-in `.py` plugins auto-discovered at runtime with crash isolation and zero configuration |
+| 🪪 Runtime Self-Knowledge | Automatically introspects its own active plugins, system hardware, OS type, and installed tools |
+
+---
+
+### 🏛️ Core Architectural Highlights
+
+- **3D Software Vector Projection**: Uses 3D geometry from a 468-vertex facial mesh rendered cleanly via Qt's 2D vector graphics pipeline (`QPainter`). Zero GPU requirement.
+- **Universal Action Reversal (Undo Engine)**: Say *"undo"* in plain language to restore modified file contents, reverse file moves, or revert setting changes.
+- **Human-in-the-Loop Confirmation Gate**: Irreversible operations (system shutdowns, restarts, network toggles) trigger an unforgeable physical confirmation dialog on the HUD.
+- **Local Wake Word & Push-to-Talk**: Combines an offline "Hey Bravo" local listener with a global **Ctrl+Space** keyboard shortcut.
 
 ---
 
