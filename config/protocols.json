@@ -1,0 +1,30 @@
+{
+  "study": {
+    "description": "Study & Reading mode: quiet atmosphere, notes app and background ambient music",
+    "apps_to_open": ["Notion", "Spotify"],
+    "apps_to_close": ["Discord", "Steam"],
+    "volume": 30,
+    "brightness": 65
+  },
+  "meeting": {
+    "description": "Meeting / Conference mode: clean screen, audio balanced, distractions closed",
+    "apps_to_open": ["Teams"],
+    "apps_to_close": ["Spotify", "Discord", "Steam"],
+    "volume": 60,
+    "brightness": 75,
+    "minimize_others": true
+  },
+  "movie": {
+    "description": "Cinema / Entertainment mode: dark screen, boosted sound, media apps",
+    "apps_to_open": ["VLC"],
+    "volume": 75,
+    "brightness": 35
+  },
+  "chill": {
+    "description": "Relaxation mode: low volume, relaxed lighting",
+    "apps_to_open": ["Spotify"],
+    "apps_to_close": ["Discord"],
+    "volume": 20,
+    "brightness": 45
+  }
+}
