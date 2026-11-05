@@ -407,6 +407,12 @@ This project is structured for academic group collaboration and modular developm
   - **GitHub:** [https://github.com/MAVERICKK97](https://github.com/MAVERICKK97)
   - **Project Repository:** [Bravo-Voice-Assistant](https://github.com/MAVERICKK97/Bravo-Voice-Assistant)
   - **Role:** Lead Architect & Developer (System Architecture, Gemini Live Integration, 3D Holographic HUD & OS Automation)
+ 
+  - ## Frontend Development
+
+- **Samiksha Ramesh Ghure**
+  - **Role:** Frontend Developer
+  - **Responsibilities:** PyQt6 Desktop User Interface, Holographic HUD Interface Design, Dashboard Components & Layout, Activity Logs and UI Overlays, Frontend Integration with Core Modules
 
 ---
 
